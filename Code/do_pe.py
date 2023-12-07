@@ -14,7 +14,7 @@ import settings
 #Also the pose error when the pose estimate works (is it close to the real pose) by filtering out the failed cases and then calculate the distance to the real pose
 #Done independently for orientation and position
 #Lec 5 - points clouds, Lec 4.1 - depth sensing, lec 6/7 - xxx -> 3D pose, Lec 9 - kalman filter, lec 10 - particle filter
-
+#ff
 # This function just displays the effect of one of the functions visually, feel free to ignore or remove it.
 def display_removal(preserved_points, removed_points):
     removed_points.paint_uniform_color([1, 0, 0])        # Show removed points in red
